@@ -23,27 +23,26 @@
     
     ##description:
        User Stories
-       
-Web Server:
-- As a user, I can request for a list of all animal data
-- As a user, I can request data for just one animal based on its id value
-- As a user, I want to be able to do this from anywhere and not just my computer
-Data Creation
-- As a user, I want to be able to add a new animal to the catalog
-Front End
-- As a user, I want to be able to view data from the server in a front-end web application
-- As a user, I want to create new data by submitting an HTML form
-Seperate Data Set
-- As a user, I want to be able to access and create different types of data stored on the server
+    Web Server:
+    - As a user, I can request for a list of all animal data
+    - As a user, I can request data for just one animal based on its id value
+    - As a user, I want to be able to do this from anywhere and not just my computer
+    Data Creation
+    - As a user, I want to be able to add a new animal to the catalog
+    Front End
+    - As a user, I want to be able to view data from the server in a front-end web application
+    - As a user, I want to create new data by submitting an HTML form
+    Separate Data Set
+    - As a user, I want to be able to access and create different types of data stored on the server
 
    
-   ##Installation:
-    -Configure an Express.js back end to serve static HTML files.
-    -Configure an Express.js back end to create an API to handle GET and POST requests.
-    -Parse parameters in server-side routes.
-    -Submit form data to a server.
-    -Implement separation of concerns for routing.
-    -Deploy a server-side application to the Heroku platform.
+    ##Installation:
+        -Configure an Express.js back end to serve static HTML files.
+        -Configure an Express.js back end to create an API to handle GET and POST requests.
+        -Parse parameters in server-side routes.
+        -Submit form data to a server.
+        -Implement separation of concerns for routing.
+        -Deploy a server-side application to the Heroku platform.
        
     
     ##usage:
