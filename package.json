@@ -1,10 +1,10 @@
 {
   "name": "zookeepr",
   "version": "1.0.0",
-  "description": "<img width=\"960\" alt=\"100-final-app\" src=\"https://user-images.githubusercontent.com/67836023/94377826-3f030d80-00d9-11eb-8348-f4269ced0bb1.png\">",
+  "description": "an app to help zoos keep animal details straight",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "node server.js"
   },
   "repository": {
@@ -12,14 +12,16 @@
     "url": "git+https://github.com/queen-stack/zookeepr.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Jenifer Queen",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/queen-stack/zookeepr/issues"
   },
   "homepage": "https://github.com/queen-stack/zookeepr#readme",
   "dependencies": {
-    "express": "^4.17.1",
-    "path": "^0.12.7"
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^26.1.0"
   }
 }

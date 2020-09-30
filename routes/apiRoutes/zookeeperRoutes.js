@@ -4,7 +4,7 @@ const {
     findById,
     createNewZookeeper,
     validateZookeeper,
-} = require("../../lib/zookeepers");
+} = require("../../../../../zookeepr1/lib/zookeepers");
 const {
     zookeepers
 } = require("../../data/zookeepers");
