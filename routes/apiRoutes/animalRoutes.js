@@ -27,10 +27,10 @@ router.get("/animals:id", (req, res) => {
 });
 
 router.post("/animals", (req, res) => {
-    // set id based on next index of [array] 
+    // set id based on what the next index of the array will be
     req.body.id = animals.length.toString();
 
-    // add animal to json  animals [array] in function
+    // add animal to json file and animals array in this function
     if (!validateAnimal(req.body)) {
         res.status(400).send("The animal is not properly formatted");
     } else {
